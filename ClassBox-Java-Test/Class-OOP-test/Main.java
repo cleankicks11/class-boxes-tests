@@ -84,7 +84,13 @@ class Main {
     pointGuard.shoot();
     center.dribble();
     pointGuard.dribble();
-
+    
+    //interface test - ferrari class implements interface hidden car attributes
+    FerrariClass enzo = new FerrariClass("enzo");
+    enzo.engine();
+    enzo.trans();
+    //Can call interface method from project folder
+    EngineInterface.dealer();
   }   
     //Method Overloading - in two addmethods
     public static void add(int first, int second){
