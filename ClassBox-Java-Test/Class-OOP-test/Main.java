@@ -74,6 +74,17 @@ class Main {
     cast(cousinCast);
     cast2(sonCast);
     cast2(cousinCast);
+
+    //Abstarct classes test - basketball
+    CenterPlayer center = new CenterPlayer("wilt");
+    PointGuardPlayer pointGuard = new PointGuardPlayer("Mike");
+    System.out.println(center.name);
+    System.out.println(pointGuard.name);
+    center.shoot();
+    pointGuard.shoot();
+    center.dribble();
+    pointGuard.dribble();
+
   }   
     //Method Overloading - in two addmethods
     public static void add(int first, int second){
