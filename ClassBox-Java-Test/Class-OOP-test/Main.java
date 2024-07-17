@@ -90,6 +90,7 @@ class Main {
     enzo.engine();
     enzo.trans();
     //Can call interface method from project folder
+    //static method must be called from interface itself
     EngineInterface.dealer();
   }   
     //Method Overloading - in two addmethods
